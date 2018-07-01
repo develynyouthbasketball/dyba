@@ -1,0 +1,25 @@
+.dyba-main {
+  min-height: 700px;
+  padding-top: 40px;
+  background-color: #dddedd;
+}
+
+.main-content {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  font-family: 'Happy Monkey', serif;
+  color: black;
+
+	p {
+	  line-height: 27px;
+	  font-size: 18px;
+	}
+	h2, h3, h4 {
+	  text-align: center;
+	}
+	li {
+	  font-size: 18px;
+	}
+}

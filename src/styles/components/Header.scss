@@ -1,0 +1,103 @@
+@font-face {
+  font-family: nexa_hand;
+  src: url(./fonts/NexaRustHand.ttf);
+}
+@font-face {
+  font-family: nexa;
+  src: url(./fonts/NexaRustSlab.ttf);
+}
+.dyba-header {
+  background-image: url("../images/Jags Logo Green.png");
+  background-size: 190px;
+}
+.dyba-background {
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 82, 20, 0.90),
+      rgba(0, 82, 20, 1) 20%,
+      rgba(0, 82, 20, 1) 80%,
+      rgba(0, 82, 20, 0.90)
+    );
+}
+.logo-container {
+  height: 100px;
+}
+.home-hidden {
+  position: absolute;
+  right: 0;
+  left: 0;
+  line-height: 100px;
+  font-size: 20px;
+  font-family: 'nexa_hand', serif;
+  color: white;
+}
+.nav-logo {
+  height: 110px;
+}
+.dyba-title {
+  color: white;
+  font-size: 3.4vw;
+  line-height: 100px;
+  font-family: 'nexa', serif;
+}
+.dyba-title.subtitle {
+  text-align: left;
+  top: -35px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Happy Monkey', serif;
+}
+.nav-bar {
+  background-color: white;
+  font-family: 'nexa_hand', serif;
+  border-bottom: 2px solid black;
+
+  .btn-group {
+    float: none;
+  }
+
+  .btn {
+    border: none;
+    font-size: 16px;
+    padding: 6px 10px 2px;
+    float: none;
+  }
+}
+.nav-paw {
+  display: inline-block;
+
+  img {
+    height: 10px;
+  }
+}
+.nav-paw.roar button {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .title-container {
+    padding-top: 10px;
+  }
+  .dyba-title {
+    text-align: center;
+    line-height: 34px;
+    font-size: 34px;
+  }
+  .dyba-title.subtitle {
+    text-align: center;
+    top: -2px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .dyba-title {
+    font-size: 7vw;
+  }
+  .dyba-title.subtitle {
+    font-size: 3vw;
+  }
+}

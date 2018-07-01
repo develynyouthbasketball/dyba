@@ -1,0 +1,87 @@
+.link-button.btn {
+	display: block;
+	max-width: 250px;
+	margin: 20px auto;
+	font-size: 18px;
+	color: white;
+	background-color: #005214;
+}
+.link-button.btn.inline {
+	display: inline-block;
+	width: 200px;
+	margin: 20px;
+}
+.link-button.btn:hover {
+	color: #97a88e;
+}
+.signup {
+	display: block;
+	font-size: 24px;
+}
+.rosters {
+	width: 158px;
+	margin: 0 auto;
+	white-space: nowrap;
+
+	ul {
+		padding-left: 0;
+		list-style-type: none;
+	}
+
+	.list-style {
+		list-style-type: square;
+	}
+}
+.calendar-container {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.dhs-coaches.col-sm-9 {
+	padding-left: 10px;
+}
+.dhs-coaches p {
+	font-size: 17px;
+	line-height: 24px;
+}
+#mc_embed_signup .mc-field-group.input-group input {
+	margin-right: 4px;
+}
+.list-header {
+	font-size: 20px;
+}
+.placement-schedule {
+	display: grid;
+	width: 85%;
+	margin: 0 auto;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+		"first second"
+	;
+
+	.first {
+		grid-area: first;
+	}
+
+	.second {
+		grid-area: second;
+	}
+
+	.first, .second {
+		width: 110px;
+		margin: 0 auto;
+		font-size: 18px;
+		white-space: nowrap;
+	}
+
+	@media (max-width: 767px) {
+		display: block;
+	}
+}
+
+.camp-image {
+	width: 100%;
+	margin-top: 20px;
+}
