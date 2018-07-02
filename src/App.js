@@ -4,6 +4,7 @@ import Header from './common/Header';
 import Home from './views/Home';
 import Register from './views/Register';
 import TeamRosters from './views/TeamRosters';
+import TeamRostersGirls from './views/TeamRostersGirls';
 import TeamPlacement from './views/TeamPlacement';
 import TeamPlacementFAQ from './views/TeamPlacementFAQ';
 import PracticeSchedule from './views/PracticeSchedule';
@@ -23,6 +24,7 @@ const App = () => (
 			<Route exact path="/" component={Home} />
 			<Route path="/register" component={Register} />
 			<Route path="/team-rosters" component={TeamRosters} />
+			<Route path="/team-rosters-girls" component={TeamRostersGirls} />
 			<Route path="/team-placement" component={TeamPlacement} />
 			<Route path="/team-placement-faq" component={TeamPlacementFAQ} />
 			<Route path="/practice-schedule" component={PracticeSchedule} />
