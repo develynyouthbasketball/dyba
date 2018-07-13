@@ -42,6 +42,48 @@ class Header extends Component {
 		}, 2000);
 	}
 
+	renderTeamInfoDropdown(noCaret = false) {
+		return (
+			<DropdownButton
+				title="TEAM INFO"
+				id="team-info"
+				noCaret={noCaret}
+			>
+				<MenuItem header>BOYS</MenuItem>
+				<MenuItem href="/team-rosters">TEAM ROSTERS</MenuItem>
+				<MenuItem href="/team-placement">TEAM PLACEMENT</MenuItem>
+				<MenuItem href="/team-placement-faq">TEAM PLACEMENT FAQ</MenuItem>
+				<MenuItem href="practice-schedule">DHS PRACTICE SCHEDULE</MenuItem>
+				<MenuItem divider></MenuItem>
+				<MenuItem header>GIRLS</MenuItem>
+				<MenuItem href="/team-rosters-girls">TEAM ROSTERS</MenuItem>
+			</DropdownButton>
+		)
+	}
+
+	renderLeagueInfoDropdown(noCaret = false) {
+		return (
+			<DropdownButton
+				title="LEAGUE INFO"
+				id="league-info"
+				noCaret={noCaret}
+			>
+				<MenuItem href="/leagues/k-1st">K THRU 1ST GRADE</MenuItem>
+				<MenuItem href="/leagues/2nd-3rd">2ND THRU 3RD GRADE</MenuItem>
+				<MenuItem href="/leagues/4th">4TH GRADE</MenuItem>
+				<MenuItem href="/leagues/5th-8th">5TH THRU 8TH GRADE</MenuItem>
+			</DropdownButton>
+		)
+	}
+
+	renderPaw() {
+		return (
+			<li className="nav-paw">
+				<img src={jagPaw} alt="Jag Paw" />
+			</li>
+		)
+	}
+
 	render() {
 		return (
 			<header className="dyba-header">
@@ -58,6 +100,8 @@ class Header extends Component {
 						<div className="col-xs-1"></div>
 					</div>
 					<ButtonToolbar className="nav-bar text-center">
+
+					{/* Desktop dropdown */}
 						<ButtonGroup className="hidden-xs col-sm-12">
 							<Button href="/register">REGISTRATION</Button>
 							<li className="nav-paw roar">
@@ -65,36 +109,10 @@ class Header extends Component {
 									<img src={jagPaw} alt="Jag Paw" />
 								</button>
 							</li>
-							<DropdownButton
-								title="TEAM INFO"
-								id="team-info"
-								noCaret
-							>
-								<MenuItem header>BOYS</MenuItem>
-								<MenuItem href="/team-rosters">TEAM ROSTERS</MenuItem>
-								<MenuItem href="/team-placement">TEAM PLACEMENT</MenuItem>
-								<MenuItem href="/team-placement-faq">TEAM PLACEMENT FAQ</MenuItem>
-								<MenuItem href="practice-schedule">DHS PRACTICE SCHEDULE</MenuItem>
-								<MenuItem divider></MenuItem>
-								<MenuItem header>GIRLS</MenuItem>
-								<MenuItem href="/team-rosters-girls">TEAM ROSTERS</MenuItem>
-							</DropdownButton>
-							<li className="nav-paw">
-								<img src={jagPaw} alt="Jag Paw" />
-							</li>
-							<DropdownButton
-								title="LEAGUE INFO"
-								id="league-info"
-								noCaret
-							>
-								<MenuItem href="/leagues/k-1st">K THRU 1ST GRADE</MenuItem>
-								<MenuItem href="/leagues/2nd-3rd">2ND THRU 3RD GRADE</MenuItem>
-								<MenuItem href="/leagues/4th">4TH GRADE</MenuItem>
-								<MenuItem href="/leagues/5th-8th">5TH THRU 8TH GRADE</MenuItem>
-							</DropdownButton>
-							<li className="nav-paw">
-								<img src={jagPaw} alt="Jag Paw" />
-							</li>
+							{this.renderTeamInfoDropdown(true)}
+							{this.renderPaw()}
+							{this.renderLeagueInfoDropdown(true)}
+							{this.renderPaw()}
 							<DropdownButton
 								title="PROGRAMS"
 								id="programs"
@@ -102,9 +120,7 @@ class Header extends Component {
 							>
 								<MenuItem href="/summer-camp">2018 SUMMER CAMPS</MenuItem>
 							</DropdownButton>
-							<li className="nav-paw">
-								<img src={jagPaw} alt="Jag Paw" />
-							</li>
+							{this.renderPaw()}
 							<DropdownButton
 								title="COACHES"
 								id="coaches"
@@ -112,11 +128,11 @@ class Header extends Component {
 							>
 								<MenuItem href="/dhs-coaches">DHS COACHING STAFF</MenuItem>
 							</DropdownButton>
-							<li className="nav-paw">
-								<img src={jagPaw} alt="Jag Paw" />
-							</li>
+							{this.renderPaw()}
 							<Button href="/email-list">EMAIL LIST</Button>
 						</ButtonGroup>
+
+					{/* Mobile dropdown */}
 						<ButtonGroup className="col-xs-12 hidden-sm hidden-md hidden-lg">
 							<DropdownButton
 								title="MENU"
@@ -124,16 +140,10 @@ class Header extends Component {
 							>
 								<MenuItem href="/">HOME</MenuItem>
 								<MenuItem href="/register">REGISTRATION</MenuItem>
-								<MenuItem href="/team-rosters">TEAM ROSTERS</MenuItem>
-								<MenuItem href="/team-placement">TEAM PLACEMENT</MenuItem>
-								<MenuItem href="/team-placement-faq">TEAM PLACEMENT FAQ</MenuItem>
-								<MenuItem href="practice-schedule">DHS PRACTICE SCHEDULE</MenuItem>
-								<MenuItem href="/leagues/k-1st">K THRU 1ST LEAGUE INFO</MenuItem>
-								<MenuItem href="/leagues/2nd-3rd">2ND THRU 3RD LEAGUE INFO</MenuItem>
-								<MenuItem href="/leagues/4th">4TH LEAGUE INFO</MenuItem>
-								<MenuItem href="/leagues/5th-8th">5TH THRU 8TH LEAGUE INFO</MenuItem>
+								{this.renderTeamInfoDropdown()}
+								{this.renderLeagueInfoDropdown()}
 								<MenuItem href="/summer-camp">2018 SUMMER CAMPS</MenuItem>
-								<MenuItem href="/dhs-coaches">DHS COACHING STAFF</MenuItem>
+								<MenuItem href="/dhs-coaches" >DHS COACHING STAFF</MenuItem>
 								<MenuItem href="/email-list">EMAIL LIST</MenuItem>
 							</DropdownButton>
 						</ButtonGroup>
