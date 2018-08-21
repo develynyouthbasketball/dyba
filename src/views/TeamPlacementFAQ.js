@@ -39,7 +39,7 @@ const TeamPlacementFAQ = () => (
 							<li>Gym usage (May be required for practice time for some teams)</li>
 						</ul>
 					</li>
-					<li>See the Team Info links by grade for more info on costs</li>
+					<li>See the League Info links by grade for more info on costs</li>
 				</ul>
 				<span className="list-header"><u>What if we can't make it to Team Placement?</u></span>
 				<ul>
