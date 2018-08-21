@@ -49,11 +49,12 @@ class Header extends Component {
 				id="team-info"
 				noCaret={noCaret}
 			>
-				<MenuItem header>BOYS</MenuItem>
-				<MenuItem href="/team-rosters">TEAM ROSTERS</MenuItem>
 				<MenuItem href="/team-placement">TEAM PLACEMENT</MenuItem>
 				<MenuItem href="/team-placement-faq">TEAM PLACEMENT FAQ</MenuItem>
 				<MenuItem href="practice-schedule">DHS PRACTICE SCHEDULE</MenuItem>
+				<MenuItem divider></MenuItem>
+				<MenuItem header>BOYS</MenuItem>
+				<MenuItem href="/team-rosters-boys">TEAM ROSTERS</MenuItem>
 				<MenuItem divider></MenuItem>
 				<MenuItem header>GIRLS</MenuItem>
 				<MenuItem href="/team-rosters-girls">TEAM ROSTERS</MenuItem>

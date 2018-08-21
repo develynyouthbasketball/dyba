@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from './common/Header';
 import Home from './views/Home';
 import Register from './views/Register';
-import TeamRosters from './views/TeamRosters';
+import TeamRostersBoys from './views/TeamRostersBoys';
 import TeamRostersGirls from './views/TeamRostersGirls';
 import TeamPlacement from './views/TeamPlacement';
 import TeamPlacementFAQ from './views/TeamPlacementFAQ';
@@ -23,7 +23,7 @@ const App = () => (
 			<Header />
 			<Route exact path="/" component={Home} />
 			<Route exact path="/register" component={Register} />
-			<Route path="/team-rosters" component={TeamRosters} />
+			<Route path="/team-rosters-boys" component={TeamRostersBoys} />
 			<Route path="/team-rosters-girls" component={TeamRostersGirls} />
 			<Route path="/team-placement" component={TeamPlacement} />
 			<Route path="/team-placement-faq" component={TeamPlacementFAQ} />
