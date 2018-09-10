@@ -12,6 +12,11 @@
   font-family: 'Happy Monkey', serif;
   color: black;
 
+  &.dyba-fees {
+    min-width: 725px;
+    padding: 0 5px 40px;
+  }
+
 	p {
 	  line-height: 27px;
 	  font-size: 18px;

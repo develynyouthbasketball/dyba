@@ -6,13 +6,13 @@ const KinderFirstInfo = () => (
 		<h2>K - 1st Grade</h2>
 		<span className="list-header"><u>Available leagues</u></span>
 		<ul>
-			<li>Kindergarten: Players will be invited to play in the Southwest YMCA league.</li>
-			<li>1st Grade: Players will be invited to play in the Southwest YMCA league OR the Jeffco Basketball Conference, depending on size and skill level, and at the discretion of the parents' wishes.</li>
+			<li>YMCA: Players will be directed to play in the Southwest YMCA league. DYBA will not be responsible for managing these teams.</li>
+			<li>Jeffco Conference: Some 1st graders, depending on size and skill level, may be invited to play on a 2nd grade DYBA team in the Jeffco Basketball Conference.</li>
 		</ul>
 		<span className="list-header"><u>YMCA league details</u></span>
 		<ul>
 			<li>Info: The YMCA basketball program focuses on teaching fundamentals, sportsmanship and teamwork through games and drills.</li>
-			<li>Cost: $62 for members; $104 for non-members.</li>
+			<li>Cost: $65 for members; $108 for non-members.</li>
 			<li>Uniform: Included in league fee.</li>
 			<li>Season: Fall session is Oct-Dec; Winter session is Jan-Mar</li>
 			<li>Practices: Teams practice once a week. Practice nights vary by team, but will be on the same night every week.</li>

@@ -73,6 +73,7 @@ class Header extends Component {
 				<MenuItem href="/leagues/2nd-3rd">2ND THRU 3RD GRADE</MenuItem>
 				<MenuItem href="/leagues/4th">4TH GRADE</MenuItem>
 				<MenuItem href="/leagues/5th-8th">5TH THRU 8TH GRADE</MenuItem>
+				<MenuItem href="/leagues/fees">DYBA FEES</MenuItem>
 			</DropdownButton>
 		)
 	}
