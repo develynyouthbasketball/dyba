@@ -3,7 +3,7 @@ import MainHeading from '../common/MainHeading';
 
 const PracticeSchedule = () => (
 	<main className="dyba-main">
-		<MainHeading title="TEAM INFO" />
+		<MainHeading title="DYBA INFO" />
 		<div className="calendar-container">
 			<h2>Practice Schedule for 6A, 7A, 8A Teams</h2>
 			<iframe

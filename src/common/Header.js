@@ -42,16 +42,17 @@ class Header extends Component {
 		}, 2000);
 	}
 
-	renderTeamInfoDropdown(noCaret = false) {
+	renderDYBAInfoDropdown(noCaret = false) {
 		return (
 			<DropdownButton
-				title="TEAM INFO"
-				id="team-info"
+				title="DYBA INFO"
+				id="dyba-info"
 				noCaret={noCaret}
 			>
 				<MenuItem href="/team-placement">TEAM PLACEMENT</MenuItem>
 				<MenuItem href="/team-placement-faq">TEAM PLACEMENT FAQ</MenuItem>
 				<MenuItem href="practice-schedule">DHS PRACTICE SCHEDULE</MenuItem>
+				<MenuItem href="/fees">DYBA FEES</MenuItem>
 				<MenuItem divider></MenuItem>
 				<MenuItem header>BOYS</MenuItem>
 				<MenuItem href="/team-rosters-boys">TEAM ROSTERS</MenuItem>
@@ -73,7 +74,6 @@ class Header extends Component {
 				<MenuItem href="/leagues/2nd-3rd">2ND THRU 3RD GRADE</MenuItem>
 				<MenuItem href="/leagues/4th">4TH GRADE</MenuItem>
 				<MenuItem href="/leagues/5th-8th">5TH THRU 8TH GRADE</MenuItem>
-				<MenuItem href="/leagues/fees">DYBA FEES</MenuItem>
 			</DropdownButton>
 		)
 	}
@@ -111,7 +111,7 @@ class Header extends Component {
 									<img src={jagPaw} alt="Jag Paw" />
 								</button>
 							</li>
-							{this.renderTeamInfoDropdown(true)}
+							{this.renderDYBAInfoDropdown(true)}
 							{this.renderPaw()}
 							{this.renderLeagueInfoDropdown(true)}
 							{this.renderPaw()}
@@ -142,7 +142,7 @@ class Header extends Component {
 							>
 								<MenuItem href="/">HOME</MenuItem>
 								<MenuItem href="/register">REGISTRATION</MenuItem>
-								{this.renderTeamInfoDropdown()}
+								{this.renderDYBAInfoDropdown()}
 								{this.renderLeagueInfoDropdown()}
 								<MenuItem href="/summer-camp">2018 SUMMER CAMPS</MenuItem>
 								<MenuItem href="/dhs-coaches" >DHS COACHING STAFF</MenuItem>

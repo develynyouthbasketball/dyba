@@ -2,7 +2,7 @@ import React from "react";
 import MainContainer from '../common/MainContainer';
 
 const TeamPlacementFAQ = () => (
-	<MainContainer title="TEAM INFO">
+	<MainContainer title="DYBA INFO">
 		<h2>Team Placement FAQ</h2>
 		<div className="row">
 			<div className="col-xs-12">

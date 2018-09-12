@@ -2,7 +2,7 @@ import React from "react";
 import MainContainer from '../common/MainContainer';
 
 const TeamRosters = () => (
-	<MainContainer title="TEAM INFO">
+	<MainContainer title="DYBA INFO">
 		<h2>Team Rosters 2018/19 - Girls</h2>
 		<br />
 		<div className="rosters">

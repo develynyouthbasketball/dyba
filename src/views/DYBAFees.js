@@ -72,7 +72,7 @@ class DYBAFees extends Component {
 	render() {
 		if (window.innerWidth < 768) {
 			return (
-				<MainContainer title="LEAGUE INFO" custom=" dyba-fees">
+				<MainContainer title="DYBA INFO" custom=" dyba-fees">
 					<h2>DYBA Fees</h2>
 					<DropdownButton title="Select" id="menu">
 						<MenuItem id="boysA" onClick={this.setMobileView}>Boys A Team</MenuItem>
@@ -95,7 +95,7 @@ class DYBAFees extends Component {
 		}
 
 		return (
-			<MainContainer title="LEAGUE INFO" custom=" dyba-fees">
+			<MainContainer title="DYBA INFO" custom=" dyba-fees">
 				<h2>DYBA Fees</h2>
 				<div className="fees-table">
 					{this.renderData()}

@@ -2,7 +2,7 @@ import React from "react";
 import MainContainer from '../common/MainContainer';
 
 const TeamPlacement = () => (
-	<MainContainer title="TEAM INFO">
+	<MainContainer title="DYBA INFO">
 		<h2>2018/19 Team Placement</h2>
 		<p>Team Placement will take place on Sunday, September 23rd, 2018 in the D'Evelyn High School gym. Please plan to arrive at least 15 minutes prior to the start time so we can stay on schedule. We need volunteers to assist with the sign-in process. Please email Tory at director@develynyouthbasketball.org if you're interested in helping.</p>
 		<h3><u>Schedule</u></h3>
