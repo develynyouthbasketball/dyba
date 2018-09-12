@@ -96,9 +96,20 @@
 	margin-top: 20px;
 }
 
+.main-content.dyba-fees {
+  padding: 0 0 40px;
+  text-align: center;
+
+  .dropdown.btn-group {
+  	margin-bottom: 15px;
+  }
+}
+
 .fees-table {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
+  // grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(10, auto);
+  grid-auto-flow: column;
   margin-bottom: 20px;
   background-color: #000;
   border: 1px solid;
@@ -110,6 +121,11 @@
 	  padding: 20px 10px;
 	  font-size: 18px;
 	  text-align: center;
+
+	  @media (max-width: 767px) {
+	  	padding: 20px 6px;
+			font-size: 16px;
+		}
   }
 
   .totals-row {
@@ -117,7 +133,13 @@
   }
 }
 
+.super {
+	font-size: 10px;
+	vertical-align: top;
+}
+
 .dyba-fees .footnote {
 	padding-top: 5px;
 	font-size: 16px;
+	text-align: left;
 }
