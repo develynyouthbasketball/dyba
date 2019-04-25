@@ -120,7 +120,7 @@ class Header extends Component {
 								id="programs"
 								noCaret
 							>
-								<MenuItem href="/summer-camp">2018 SUMMER CAMPS</MenuItem>
+								<MenuItem href="/summer-camp">2019 SUMMER CAMPS</MenuItem>
 							</DropdownButton>
 							{this.renderPaw()}
 							<DropdownButton
@@ -144,7 +144,7 @@ class Header extends Component {
 								<MenuItem href="/register">REGISTRATION</MenuItem>
 								{this.renderDYBAInfoDropdown()}
 								{this.renderLeagueInfoDropdown()}
-								<MenuItem href="/summer-camp">2018 SUMMER CAMPS</MenuItem>
+								<MenuItem href="/summer-camp">2019 SUMMER CAMPS</MenuItem>
 								<MenuItem href="/dhs-coaches" >DHS COACHING STAFF</MenuItem>
 								<MenuItem href="/email-list">EMAIL LIST</MenuItem>
 							</DropdownButton>
