@@ -49,7 +49,7 @@ const TeamPlacementFAQ = () => (
 				</ul>
 				<span className="list-header"><u>What if I have additional questions?</u></span>
 				<ul>
-					<li>The DYBA director, Tory Rahm, will be available throughout the day during the tryouts. You may also email Tory at director@develynyouthbasketball.org. There will be several volunteers helping out with sign-in for the tryouts. These volunteers are typically experienced basketball parents who can answer most questions. Please be respectful of their time during the busy check-in periods and ask your questions after they've completed check-ins.</li>
+					<li>The DYBA director will be available throughout the day during the tryouts. You may also send an email to director@develynyouthbasketball.org. There will be several volunteers helping out with sign-in for the tryouts. These volunteers are typically experienced basketball parents who can answer most questions. Please be respectful of their time during the busy check-in periods and ask your questions after they've completed check-ins.</li>
 				</ul>
 			</div>
 		</div>

@@ -8,7 +8,7 @@ const Register = () => (
 		<ol>
 			<li>Login to existing account or create a new parent account on the Blue Sombrero website.</li>
 			<li>Add all participants to your account.</li>
-			<li>Register each participant for the 2018 tryouts.</li>
+			<li>Register each participant for the 2019 tryouts.</li>
 		</ol>
 		<p>We will accept on-site registrations the day of Team Placement. However, we would prefer that you complete your registration in advance.</p>
 		<p className="center-margin-top">Click the Register button to begin the process.</p>
