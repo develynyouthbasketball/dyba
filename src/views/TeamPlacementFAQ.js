@@ -20,7 +20,7 @@ const TeamPlacementFAQ = () => (
 					<li>Numbered/reversible jersey, if available</li>
 					<li>Basketball shoes</li>
 				</ul>
-				<span className="list-header"><u>What should I bring?</u></span>
+				<span className="list-header"><u>What should my child bring?</u></span>
 				<ul>
 					<li>Basketball</li>
 					<li>Water</li>
