@@ -4,7 +4,7 @@ import MainContainer from '../common/MainContainer';
 const TeamPlacement = () => (
 	<MainContainer title="DYBA INFO">
 		<h2>2019/20 Team Placement</h2>
-		<p>Team Placement will take place on Sunday, September 8th, 2019 in the D'Evelyn High School gym. Please plan to arrive at least 15 minutes prior to the start time so we can stay on schedule. We need volunteers to assist with the sign-in process. Please send an email to director@develynyouthbasketball.org if you're interested in helping.</p>
+		<p>Team Placement will take place on Sunday, September 8th, 2019 in the D'Evelyn High School gym. Please plan to arrive at least 10 minutes prior to the start time so we can stay on schedule. We need volunteers to assist with the sign-in process. Please send an email to director@develynyouthbasketball.org if you're interested in helping.</p>
 		<h3><u>Schedule</u></h3>
 		<div className="placement-schedule">
 			<div className="first">
@@ -37,6 +37,8 @@ const TeamPlacement = () => (
 				<div>Start: 3:00pm</div>
 			</div>
 		</div>
+		<br />
+		<p>There will be a breif parent information talk during the last 10 of each player placement session</p>
 		<br />
 		<p className="center-margin-top">Click on Team Placement FAQ for more information.</p>
 		<a className="link-button btn" href="/team-placement-faq">Team Placement FAQ</a>
