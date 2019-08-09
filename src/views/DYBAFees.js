@@ -10,8 +10,8 @@ const DYBAFeesData = {
 		{data: '$20', sup: 1}, '$100', '$130', {data: '$665', class: 'totals-row'}
 	],
 	girlsA: [{title1: 'Boys & Girls', title2: '6, 7, 8 SILVER'}, 'FREE', '$50', {data: '$160', sup: 1}, '~$40', {data: '$165', sup: 1}, {data: '$20', sup: 1}, '$50', '$130', {data: '$615', class: 'totals-row'}],
-	boysB: [{title1: 'Boys', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', '-', '-', '-', '-', {data: '$315', class: 'totals-row'}],
-	girlsB: [{title1: 'Girls', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', '-', '-', '-', '-', {data: '$315', class: 'totals-row'}],
+	boysB: [{title1: 'Boys', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', {data: '-', sup: 1}, {data: '-', sup: 1}, '-', '-', {data: '$315', class: 'totals-row'}],
+	girlsB: [{title1: 'Girls', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', {data: '-', sup: 1}, {data: '-', sup: 1}, '-', '-', {data: '$315', class: 'totals-row'}],
 	payableTo: ['Payable To', '-', 'DYBA', 'Just Play Sports', 'Denver Athletic', 'Gold Crown', 'DYBA', 'DYBA', 'DYBA', '-'],
 	dueDate: ['Due Date', '-', 'Spot Acceptance', 'Oct 1', 'Oct 1', 'Nov 15', 'Nov 30', 'Nov 1', 'Nov 1', '-']
 };
