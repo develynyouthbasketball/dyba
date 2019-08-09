@@ -8,42 +8,31 @@ const TeamPlacement = () => (
 		<h3><u>Schedule</u></h3>
 		<div className="placement-schedule">
 			<div className="first">
-				<div><u>K-2nd Grade Boys & Girls</u></div>
-				<div>Check-in: 8:30am</div>
-				<div>Start: 9:00am</div>
 				<br />
 				<div><u>3rd Grade Boys & Girls</u></div>
-				<div>Check-in: 9:30am</div>
-				<div>Start: 10:00am</div>
+				<div>Check-in: 9:15am</div>
+				<div>Start: 9:30am</div>
 				<br />
 				<div><u>4th Grade Boys & Girls</u></div>
-				<div>Check-in: 10:30am</div>
-				<div>Start: 11:00am</div>
+				<div>Check-in: 10:15am</div>
+				<div>Start: 10:30am</div>
 				<br />
 				<div><u>5th Grade Boys & Girls</u></div>
-				<div>Check-in: 11:30am</div>
-				<div>Start: 12:00pm</div>
+				<div>Check-in: 11:15am</div>
+				<div>Start: 11:30am</div>
 				<br />
-				<div><u>6th Grade Boys & Girls</u></div>
-				<div>Check-in: 1:00pm</div>
-				<div>Start: 1:30pm</div>
 			</div>
 			<div className="second">
-				<div><u>7th Grade Boys</u></div>
-				<div>Check-in: 2:00pm</div>
-				<div>Start: 2:30pm</div>
+				<div><u>6th Grade Boys & Girls</u></div>
+				<div>Check-in: 12:45pm</div>
+				<div>Start: 1:00pm</div>
+				<div><u>7th Grade Boys & Girls</u></div>
+				<div>Check-in: 1:45pm</div>
+				<div>Start: 2:00pm</div>
 				<br />
-				<div><u>7th Grade Girls</u></div>
-				<div>Check-in: 3:00pm</div>
-				<div>Start: 3:30pm</div>
-				<br />
-				<div><u>8th Grade Boys</u></div>
-				<div>Check-in: 4:00pm</div>
-				<div>Start: 4:30pm</div>
-				<br />
-				<div><u>8th Grade Girls</u></div>
-				<div>Check-in: 5:00pm</div>
-				<div>Start: 5:30pm</div>
+				<div><u>8th Grade Boys & Girls</u></div>
+				<div>Check-in: 2:45pm</div>
+				<div>Start: 3:00pm</div>
 			</div>
 		</div>
 		<br />
