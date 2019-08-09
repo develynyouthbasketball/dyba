@@ -4,7 +4,7 @@ import zinn from '../images/Zinn.png';
 import slaughter from '../images/slaughter.png';
 
 const DHSCoaches = () => (
-	<MainContainer title="STAFF/COACHES">
+	<MainContainer title="STAFF and COACHES">
 		<h2>DYBA Staff</h2>
 		<br />
 		<div className="row">

@@ -8,6 +8,10 @@ const TeamRosters = () => (
 		<div className="rosters">
 			<ul>
 				<li><u>8th Grade Team A</u></li>
+				<li></li>
+				<br />
+				<li className="list-style">Coach</li>
+				<br />
 			</ul>
 		</div>
 	</MainContainer>

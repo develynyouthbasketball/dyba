@@ -6,10 +6,10 @@ const DYBAFeesData = {
 	feeType: ['Fee Type', 'Team Placement', 'Club', 'Jeffco Conference', 'Uniform', 'Gold Crown',
 		'Gold Crown Gym Usage', 'Coach', 'DHS Gym Usage', {data: 'Total Fees', class: 'totals-row'}
 	],
-	boysA: [{title1: 'Boys & Girls', title2: '6, 7, 8 Gold'}, 'FREE', '$50', {data: '$160', sup: 1}, '~$40', {data: '$150', sup: 1},
+	boysA: [{title1: 'Boys & Girls', title2: '6, 7, 8 GOLD'}, 'FREE', '$50', {data: '$160', sup: 1}, '~$40', {data: '$150', sup: 1},
 		{data: '$20', sup: 1}, '$100', '$130', {data: '$650', class: 'totals-row'}
 	],
-	girlsA: [{title1: 'Boys & Girls', title2: '6, 7, 8 Silver'}, 'FREE', '$50', {data: '$160', sup: 1}, '~$40', {data: '$150', sup: 1}, {data: '$20', sup: 1}, '$50', '$130', {data: '$600', class: 'totals-row'}],
+	girlsA: [{title1: 'Boys & Girls', title2: '6, 7, 8 SILVER'}, 'FREE', '$50', {data: '$160', sup: 1}, '~$40', {data: '$150', sup: 1}, {data: '$20', sup: 1}, '$50', '$130', {data: '$600', class: 'totals-row'}],
 	boysB: [{title1: 'Boys', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', '-', '-', '-', '-', {data: '$315', class: 'totals-row'}],
 	girlsB: [{title1: 'Girls', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', '-', '-', '-', '-', {data: '$315', class: 'totals-row'}],
 	payableTo: ['Payable To', '-', 'DYBA', 'Just Play Sports', 'Denver Athletic', 'Gold Crown', 'DYBA', 'DYBA', 'DYBA', '-'],
