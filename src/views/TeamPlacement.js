@@ -38,7 +38,7 @@ const TeamPlacement = () => (
 			</div>
 		</div>
 		<br />
-		<p>There will be a breif parent information talk during the last 10 of each player placement session</p>
+		<p>There will be a breif parent information talk during the last 10 minutes of each player placement session</p>
 		<br />
 		<p className="center-margin-top">Click on Team Placement FAQ for more information.</p>
 		<a className="link-button btn" href="/team-placement-faq">Team Placement FAQ</a>
