@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ButtonToolbar, ButtonGroup, DropdownButton, MenuItem, Button } from 'react-bootstrap';
-import jagShield from '../images/Jags-shield-logo-white-text.png';
+import dybaLogo from '../images/dyba-logo.png';
 import jagPaw from '../images/animal-paw-print_green.svg';
 import roar from '../images/jaguar.mp3';
 
@@ -94,7 +94,7 @@ class Header extends Component {
 						<div className="col-xs-1"></div>
 						<a href="/" className="logo-container text-center hidden-xs col-sm-2" onMouseEnter={this.goHome} onMouseLeave={this.goAway}>
 							<span className="home-hidden" style={{ opacity: this.state.homeOpacity }}>Home</span>
-							<img src={jagShield} className="nav-logo" alt="logo" style={{ opacity: this.state.imageOpacity }} />
+							<img src={dybaLogo} className="nav-logo" alt="logo" style={{ opacity: this.state.imageOpacity }} />
 						</a>
 						<div className="title-container col-xs-10 col-sm-8">
 							<div className="dyba-title">D'EVELYN YOUTH BASKETBALL</div>
