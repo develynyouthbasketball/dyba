@@ -4,16 +4,16 @@ import MainContainer from '../common/MainContainer';
 
 const DYBAFeesData = {
 	feeType: ['Fee Type', 'Team Placement', 'Club', 'Jeffco Conference', 'Uniform', 'Gold Crown',
-		'Gold Crown Gym Usage', {data: 'Coach', sup: 2}, {data: 'DHS Gym Usage', sup: 2}, {data: 'Total Fees', class: 'totals-row'}
+		'Gold Crown Gym Usage', 'Coach', 'DHS Gym Usage', {data: 'Total Fees', class: 'totals-row'}
 	],
-	boysA: [{title1: 'Boys', title2: 'A Team'}, '$15', '$50', '$160', {data: '$90', sup: 2, data2: '/$25'}, {data: '$150', sup: 3},
-		{data: '$20', sup: 3}, '$100', '$130', {data: '$715', class: 'totals-row'}
+	boysA: [{title1: 'Boys & Girls', title2: '6, 7, 8 Gold'}, 'FREE', '$50', {data: '$160', sup: 1}, '~$40', {data: '$150', sup: 1},
+		{data: '$20', sup: 1}, '$100', '$130', {data: '$650', class: 'totals-row'}
 	],
-	girlsA: [{title1: 'Girls', title2: 'A Team'}, '$15', '$50', '-', '$35', '$150', '$20', '$100', '$130', {data: '$500', class: 'totals-row'}],
-	boysB: [{title1: 'Boys', title2: 'B Team'}, '$15', '$50', {data: '$225', sup: 1}, '$25', '-', '-', '$50', '-', {data: '$365', class: 'totals-row'}],
-	girlsB: [{title1: 'Girls', title2: 'B Team'}, '$15', '$50', {data: '$225', sup: 1}, '$35', '-', '-', '$50', '-', {data: '$375', class: 'totals-row'}],
-	payableTo: ['Payable To', 'DYBA', 'DYBA', 'Just Play Sports', 'Varies', 'Gold Crown', 'DYBA', 'DYBA', 'DYBA', '-'],
-	dueDate: ['Due Date', 'Sept 23', 'Oct 1', 'Oct 1', 'Varies', 'Nov 15', 'Nov 30', 'Nov 30', 'Nov 30', '-']
+	girlsA: [{title1: 'Boys & Girls', title2: '6, 7, 8 Silver'}, 'FREE', '$50', {data: '$160', sup: 1}, '~$40', {data: '$150', sup: 1}, {data: '$20', sup: 1}, '$50', '$130', {data: '$600', class: 'totals-row'}],
+	boysB: [{title1: 'Boys', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', '-', '-', '-', '-', {data: '$315', class: 'totals-row'}],
+	girlsB: [{title1: 'Girls', title2: 'Other Teams'}, 'FREE', '$50', {data: '$225', sup: 2}, '~$40', '-', '-', '-', '-', {data: '$315', class: 'totals-row'}],
+	payableTo: ['Payable To', '-', 'DYBA', 'Just Play Sports', 'Denver Athletic', 'Gold Crown', 'DYBA', 'DYBA', 'DYBA', '-'],
+	dueDate: ['Due Date', '-', 'Spot Acceptance', 'Oct 1', 'Oct 1', 'Nov 15', 'Nov 30', 'Nov 1', 'Nov 1', '-']
 };
 
 class DYBAFees extends Component {
@@ -85,9 +85,8 @@ class DYBAFees extends Component {
 							<div className="fees-table">
 								{this.renderData()}
 							</div>
-							<div className="footnote"><span className="super">1</span> Includes gym time for practices.</div>
-							<div className="footnote"><span className="super">2</span> These fees apply to 6th, 7th and 8th grade teams only.</div>
-							<div className="footnote"><span className="super">3</span> 7th and 8th grade boys A teams will play Gold Crown. Others will be team by team decision.</div>
+							<div className="footnote"><span className="super">1</span> Not all teams will participate in both Jeffco & Gold Crown Leagues. This will be team by team decision.</div>
+							<div className="footnote"><span className="super">2</span> Includes gym time for practices.</div>
 						</React.Fragment>
 					)}
 				</MainContainer>
@@ -100,9 +99,8 @@ class DYBAFees extends Component {
 				<div className="fees-table">
 					{this.renderData()}
 				</div>
-				<div className="footnote"><span className="super">1</span> Includes gym time for practices.</div>
-				<div className="footnote"><span className="super">2</span> These fees apply to 6th, 7th and 8th grade teams only.</div>
-				<div className="footnote"><span className="super">3</span> 7th and 8th grade boys A teams will play Gold Crown. Others will be team by team decision.</div>
+				<div className="footnote"><span className="super">1</span> Not all teams will participate in both Jeffco & Gold Crown Leagues. This will be team by team decision.</div>
+				<div className="footnote"><span className="super">2</span> Includes gym time for practices.</div>
 			</MainContainer>
 		);
 	}

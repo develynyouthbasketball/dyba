@@ -22,12 +22,12 @@ const TeamPlacementFAQ = () => (
 				</ul>
 				<span className="list-header"><u>What should my child bring?</u></span>
 				<ul>
-					<li>Basketball</li>
+					<li>Basketball with name on it</li>
 					<li>Water</li>
 				</ul>
-				<span className="list-header"><u>How do I register?</u></span>
+				<span className="list-header"><u>How do I register my child?</u></span>
 				<ul>
-					<li>Team Placement registration is handled through Blue Sombrero. There is no fee. See the <a href="/register.html">Registration</a> page to get started.</li>
+					<li>Team Placement registration is handled through Blue Sombrero. There is no fee. You only pay the club fee once your child accepts a spot on a team. See the <a href="/register.html">Registration</a> page to get started.</li>
 				</ul>
 				<span className="list-header"><u>How much does this all cost?</u></span>
 				<ul>
