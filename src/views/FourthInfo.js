@@ -3,17 +3,17 @@ import MainContainer from '../common/MainContainer';
 
 const FourthInfo = () => (
 	<MainContainer title="LEAGUE INFO">
-		<h2>4th Grade</h2>
+		<h2>3rd and 4th Grade</h2>
 		<span className="list-header"><u>Available leagues</u></span>
 		<ul>
-			<li>Jeffco Conference: All 4th graders will play in the Jeffco Conference.</li>
+			<li>Jeffco Conference: All 3rd and 4th graders will play in the Jeffco Conference.</li>
 			<li>Gold Crown: Some 4th graders may also play in the Gold Crown league.</li>
 		</ul>
 		<span className="list-header"><u>Jeffco Conference details</u></span>
 		<ul>
 			<li>Info: The Jeffco Conference offers both competitive and recreational leagues.</li>
 			<li>Cost: $210</li>
-			<li>Uniform: $25 jersey if purchased from league. ~$100 if team chooses to purchase full uniform.</li>
+			<li>Uniform: ~$40 purchased through Denver Athletic Supply online store.</li>
 			<li>Season: Oct 30 - Feb 25</li>
 			<li>Practices: 1-2 practices per week. Practices are weeknights at Lakewood schools and can vary week to week.</li>
 			<li>Games: Games will begin the week of Nov 27 and can be any day of the week except Sunday. Games are played at schools throughout Jefferson County as well as the Gold Crown Fieldhouse.</li>

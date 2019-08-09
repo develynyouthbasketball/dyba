@@ -3,11 +3,11 @@ import MainContainer from '../common/MainContainer';
 
 const KinderFirstInfo = () => (
 	<MainContainer title="LEAGUE INFO">
-		<h2>K - 1st Grade</h2>
+		<h2>K - 2nd Grade</h2>
 		<span className="list-header"><u>Available leagues</u></span>
 		<ul>
 			<li>YMCA: Players will be directed to play in the Southwest YMCA league. DYBA will not be responsible for managing these teams.</li>
-			<li>Jeffco Conference: Some 1st graders, depending on size and skill level, may be invited to play on a 2nd grade DYBA team in the Jeffco Basketball Conference.</li>
+			<li>Jeffco Conference: 2nd graders can look into playing in the Jeffco Conference. DYBA will not be responsible for managing these teams</li>
 		</ul>
 		<span className="list-header"><u>YMCA league details</u></span>
 		<ul>
