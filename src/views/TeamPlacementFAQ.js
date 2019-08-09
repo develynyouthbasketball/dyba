@@ -27,7 +27,7 @@ const TeamPlacementFAQ = () => (
 				</ul>
 				<span className="list-header"><u>How do I register?</u></span>
 				<ul>
-					<li>Team Placement registration is handled through Blue Sombrero. There is a $15 fee. See the <a href="/register.html">Registration</a> page to get started.</li>
+					<li>Team Placement registration is handled through Blue Sombrero. There is no fee. See the <a href="/register.html">Registration</a> page to get started.</li>
 				</ul>
 				<span className="list-header"><u>How much does this all cost?</u></span>
 				<ul>

@@ -23,9 +23,11 @@ const TeamPlacement = () => (
 				<br />
 			</div>
 			<div className="second">
+				<br />
 				<div><u>6th Grade Boys & Girls</u></div>
 				<div>Check-in: 12:45pm</div>
 				<div>Start: 1:00pm</div>
+				<br />
 				<div><u>7th Grade Boys & Girls</u></div>
 				<div>Check-in: 1:45pm</div>
 				<div>Start: 2:00pm</div>
