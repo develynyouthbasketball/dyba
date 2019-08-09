@@ -75,10 +75,10 @@ class DYBAFees extends Component {
 				<MainContainer title="DYBA INFO" custom=" dyba-fees">
 					<h2>DYBA Fees</h2>
 					<DropdownButton title="Select" id="menu">
-						<MenuItem id="boysA" onClick={this.setMobileView}>Boys A Team</MenuItem>
-						<MenuItem id="girlsA" onClick={this.setMobileView}>Girls A Team</MenuItem>
-						<MenuItem id="boysB" onClick={this.setMobileView}>Boys B Team</MenuItem>
-						<MenuItem id="girlsB" onClick={this.setMobileView}>Girls B Team</MenuItem>
+						<MenuItem id="boysA" onClick={this.setMobileView}>Boys & Girls 6, 7, 8 GOLD</MenuItem>
+						<MenuItem id="girlsA" onClick={this.setMobileView}>Boys & Girls 6, 7, 8 Silver</MenuItem>
+						<MenuItem id="boysB" onClick={this.setMobileView}>Boys Other Teams</MenuItem>
+						<MenuItem id="girlsB" onClick={this.setMobileView}>Girls Other Teams</MenuItem>
 					</DropdownButton>
 					{this.state.showMobileTable && (
 						<React.Fragment>
