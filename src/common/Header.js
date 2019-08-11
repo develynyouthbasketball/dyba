@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ButtonToolbar, ButtonGroup, DropdownButton, MenuItem, Button } from 'react-bootstrap';
 import dybaLogo from '../images/dyba-logo.png';
 import jagPaw from '../images/animal-paw-print_green.svg';
-import roar from '../images/jaguar.mp3';
+import roar from '../images/DYBA-head.png';
 
 class Header extends Component {
 	constructor(props) {
