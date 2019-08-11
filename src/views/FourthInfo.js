@@ -3,7 +3,7 @@ import MainContainer from '../common/MainContainer';
 
 const FourthInfo = () => (
 	<MainContainer title="LEAGUE INFO">
-		<h2>3rd and 4th Grade</h2>
+		<h2>3rd - 4th Grade</h2>
 		<span className="list-header"><u>Available leagues</u></span>
 		<ul>
 			<li>Jeffco Conference: All 3rd and 4th graders will play in the Jeffco Conference.</li>
