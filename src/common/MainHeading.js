@@ -1,5 +1,5 @@
 import React from "react";
-import jagHead from '../images/Jags-head-white-green.png';
+import jagHead from '../images/DYBA-head.png';
 
 const MainHeading = ({ title }) => {
 	const imageClass = title === 'WELCOME' ? ' home' : '';
