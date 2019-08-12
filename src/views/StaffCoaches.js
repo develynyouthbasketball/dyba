@@ -16,7 +16,7 @@ const DHSCoaches = () => (
 		</div>
 		<br />
 		<br />
-		<br /><h2>DHS Coaching Staff</h2>
+		<br /><h2>D'Evelyn HS Coaching Staff</h2>
 		<br />
 		<div className="row">
 			<p>Dan Zinn - Varsity Head Coach - Boys</p>

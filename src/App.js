@@ -13,7 +13,7 @@ import KinderSecondInfo from './views/KinderSecondInfo';
 import ThirdFourthInfo from './views/ThirdFourthInfo';
 import FifthEigthInfo from './views/FifthEigthInfo';
 import SummerCamp from './views/SummerCamp';
-import DHSCoaches from './views/DHSCoaches';
+import StaffCoaches from './views/StaffCoaches';
 import EmailList from './views/EmailList';
 import Footer from './common/Footer';
 
@@ -33,7 +33,7 @@ const App = () => (
 			<Route path="/leagues/3rd-4th" component={ThirdFourthInfo} />
 			<Route path="/leagues/5th-8th" component={FifthEigthInfo} />
 			<Route path="/summer-camp" component={SummerCamp} />
-			<Route path="/dhs-coaches" component={DHSCoaches} />
+			<Route path="/staff-coaches" component={StaffCoaches} />
 			<Route path="/email-list" component={EmailList} />
 			<Footer />
 		</div>

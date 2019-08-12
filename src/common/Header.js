@@ -123,11 +123,11 @@ class Header extends Component {
 							</DropdownButton>
 							{this.renderPaw()}
 							<DropdownButton
-								title="COACHES"
+								title="STAFF & COACHES"
 								id="coaches"
 								noCaret
 							>
-								<MenuItem href="/dhs-coaches">DHS COACHING STAFF</MenuItem>
+								<MenuItem href="/staff-coaches">STAFF & COACHES</MenuItem>
 							</DropdownButton>
 							{this.renderPaw()}
 							<Button href="/email-list">EMAIL LIST</Button>
