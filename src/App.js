@@ -9,9 +9,8 @@ import PracticeSchedule from './views/PracticeSchedule';
 import DYBAFees from './views/DYBAFees';
 import TeamRostersBoys from './views/TeamRostersBoys';
 import TeamRostersGirls from './views/TeamRostersGirls';
-import KinderFirstInfo from './views/KinderFirstInfo';
-import SecondThirdInfo from './views/SecondThirdInfo';
-import FourthInfo from './views/FourthInfo';
+import KinderSecondInfo from './views/KinderSecondInfo';
+import ThirdFourthInfo from './views/ThirdFourthInfo';
 import FifthEigthInfo from './views/FifthEigthInfo';
 import SummerCamp from './views/SummerCamp';
 import DHSCoaches from './views/DHSCoaches';
@@ -30,9 +29,8 @@ const App = () => (
 			<Route path="/fees" component={DYBAFees} />
 			<Route path="/team-rosters-boys" component={TeamRostersBoys} />
 			<Route path="/team-rosters-girls" component={TeamRostersGirls} />
-			<Route path="/leagues/k-1st" component={KinderFirstInfo} />
-			<Route path="/leagues/2nd-3rd" component={SecondThirdInfo} />
-			<Route path="/leagues/4th" component={FourthInfo} />
+			<Route path="/leagues/k-2nd" component={KinderSecondInfo} />
+			<Route path="/leagues/3rd-4th" component={ThirdFourthInfo} />
 			<Route path="/leagues/5th-8th" component={FifthEigthInfo} />
 			<Route path="/summer-camp" component={SummerCamp} />
 			<Route path="/dhs-coaches" component={DHSCoaches} />

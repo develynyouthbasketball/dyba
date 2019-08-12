@@ -70,8 +70,8 @@ class Header extends Component {
 				id="league-info"
 				noCaret={noCaret}
 			>
-				<MenuItem href="/leagues/k-1st">K THRU 2ND GRADE</MenuItem>
-				<MenuItem href="/leagues/4th">3RD THRU 4TH GRADE</MenuItem>
+				<MenuItem href="/leagues/k-2nd">K THRU 2ND GRADE</MenuItem>
+				<MenuItem href="/leagues/3rd-4th">3RD THRU 4TH GRADE</MenuItem>
 				<MenuItem href="/leagues/5th-8th">5TH THRU 8TH GRADE</MenuItem>
 			</DropdownButton>
 		)
