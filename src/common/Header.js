@@ -144,7 +144,7 @@ class Header extends Component {
 								{this.renderDYBAInfoDropdown()}
 								{this.renderLeagueInfoDropdown()}
 								<MenuItem href="/summer-camp">2019 SUMMER CAMPS</MenuItem>
-								<MenuItem href="/dhs-coaches" >DHS COACHING STAFF</MenuItem>
+								<MenuItem href="/staff-coaches">STAFF & COACHES</MenuItem>
 								<MenuItem href="/email-list">EMAIL LIST</MenuItem>
 							</DropdownButton>
 						</ButtonGroup>
