@@ -1,12 +1,12 @@
 import React from "react";
 import MainContainer from '../common/MainContainer';
 
-const SecondThirdInfo = () => (
+const ThirdInfo = () => (
   <MainContainer title="LEAGUE INFO">
-    <h2>2nd - 3rd Grade</h2>
+    <h2>3rd Grade</h2>
     <span className="list-header"><u>Available leagues</u></span>
     <ul>
-      <li>2nd and 3rd graders will play in the Jeffco Basketball Conference.</li>
+      <li>3rd graders will play in the Jeffco Basketball Conference.</li>
     </ul>
     <span className="list-header"><u>Jeffco Conference details</u></span>
     <ul>
@@ -21,4 +21,4 @@ const SecondThirdInfo = () => (
   </MainContainer>
 );
 
-export default SecondThirdInfo;
+export default ThirdInfo;

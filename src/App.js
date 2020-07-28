@@ -6,8 +6,8 @@ import Register from './views/Register';
 import TeamPlacement from './views/TeamPlacement';
 import TeamPlacementFAQ from './views/TeamPlacementFAQ';
 import DYBAFees from './views/DYBAFees';
-import KinderFirstInfo from './views/KinderFirstInfo';
-import SecondThirdInfo from './views/SecondThirdInfo';
+import KinderSecondInfo from './views/KinderSecondInfo';
+import ThirdInfo from './views/ThirdInfo';
 import FourthInfo from './views/FourthInfo';
 import FifthEigthInfo from './views/FifthEigthInfo';
 import SummerCamp from './views/SummerCamp';
@@ -24,8 +24,8 @@ const App = () => (
 			<Route path="/team-placement" component={TeamPlacement} />
 			<Route path="/team-placement-faq" component={TeamPlacementFAQ} />
 			<Route path="/fees" component={DYBAFees} />
-			<Route path="/leagues/k-1st" component={KinderFirstInfo} />
-			<Route path="/leagues/2nd-3rd" component={SecondThirdInfo} />
+			<Route path="/leagues/k-2nd" component={KinderSecondInfo} />
+			<Route path="/leagues/3rd" component={ThirdInfo} />
 			<Route path="/leagues/4th" component={FourthInfo} />
 			<Route path="/leagues/5th-8th" component={FifthEigthInfo} />
 			<Route path="/summer-camp" component={SummerCamp} />

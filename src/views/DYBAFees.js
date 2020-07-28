@@ -14,6 +14,7 @@ const DYBAFeesData = {
   girlsB: [{title1: 'Girls', title2: 'B Team'}, '$50', {data: '$235', sup: 2}, '$35', '-', '-', '-', '$50', {data: '$370', class: 'totals-row'}],
   payableTo: ['Payable To', 'DYBA', 'Just Play Sports', 'Varies', 'Gold Crown', 'DYBA', 'DYBA', 'DYBA', '-'],
   dueDate: ['Due Date', 'Oct 1', 'Oct 1', 'Varies', 'Nov 15', 'Nov 30', 'Nov 30', 'Nov 30', '-']
+
 };
 
 class DYBAFees extends Component {

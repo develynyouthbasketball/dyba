@@ -3,7 +3,7 @@ import MainContainer from '../common/MainContainer';
 
 const TeamRosters = () => (
 	<MainContainer title="DYBA INFO">
-		<h2>Team Rosters 2018/19 - Boys</h2>
+		<h2>Team Rosters 2019/20 - Boys</h2>
 		<br />
 		<div className="rosters">
 			<ul>
