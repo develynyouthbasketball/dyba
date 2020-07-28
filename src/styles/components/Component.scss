@@ -22,35 +22,17 @@
 	font-size: 24px;
 }
 
-.rosters {
-	width: 158px;
-	margin: 0 auto;
-	white-space: nowrap;
+.staff-section {
+	margin-bottom: 40px;
 
-	ul {
-		padding-left: 0;
-		list-style-type: none;
+	.dyba-staff p {
+		font-size: 17px;
+		line-height: 24px;
 	}
 
-	.list-style {
-		list-style-type: square;
+	.dyba-staff.col-sm-9 {
+		padding-left: 10px;
 	}
-}
-
-.calendar-container {
-	position: relative;
-	width: 800px;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
-
-.dhs-coaches.col-sm-9 {
-	padding-left: 10px;
-}
-
-.dhs-coaches p {
-	font-size: 17px;
-	line-height: 24px;
 }
 
 #mc_embed_signup .mc-field-group.input-group input {
@@ -107,8 +89,7 @@
 
 .fees-table {
   display: grid;
-  // grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(10, auto);
+  grid-template-rows: repeat(9, auto);
   grid-auto-flow: column;
   margin-bottom: 20px;
   background-color: #000;
@@ -133,13 +114,20 @@
   }
 }
 
-.super {
-	font-size: 10px;
-	vertical-align: top;
-}
+.dyba-fees {
+	.footnote {
+		padding-top: 5px;
+		font-size: 16px;
+		text-align: left;
+	}
 
-.dyba-fees .footnote {
-	padding-top: 5px;
-	font-size: 16px;
-	text-align: left;
+	.super {
+		font-size: 10px;
+		vertical-align: top;
+	}
+
+	.disclaimer {
+		margin-top: 25px;
+		text-align: left;
+	}
 }

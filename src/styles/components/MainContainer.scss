@@ -1,5 +1,5 @@
 .dyba-main {
-  min-height: 700px;
+  min-height: calc(100vh - 182px);
   padding-top: 40px;
   background-color: #dddedd;
 }
@@ -22,5 +22,10 @@
 	}
 	li {
 	  font-size: 18px;
+	}
+
+	.button-container {
+		text-align: center;
+		margin-top: 25px;
 	}
 }

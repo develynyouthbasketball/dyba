@@ -33,7 +33,7 @@ class Footer extends Component {
             <a href="https://tory-rahm.herokuapp.com/">Created by Tory Rahm</a>
           </div>
           <div>
-            <p className="footer-copyright text-center">Copyright &copy; 2018. All rights reserved.</p>
+            <p className="footer-copyright text-center">Copyright &copy; 2020. All rights reserved.</p>
           </div>
         </div>
         <div className="footer-contact">
