@@ -14,7 +14,7 @@ const Register = () => (
     <p className="center-margin-top">Click the Register button to begin the process.</p>
     <a
       className="link-button btn"
-      href="http://leagues.bluesombrero.com/Default.aspx?tabid=1175515"
+      href="https://registration.bluesombrero.com/12806/available-programs"
       target="_blank"
       rel="noopener noreferrer"
     >

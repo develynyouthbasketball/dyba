@@ -3,38 +3,23 @@ import MainContainer from '../common/MainContainer';
 
 const TeamPlacement = () => (
   <MainContainer title="DYBA INFO">
-    <h2>2019/20 Team Placement</h2>
-    <p>Team Placement will take place on Sunday, September 8th, 2019 in the D'Evelyn High School gym. Please plan to arrive at least 15 minutes prior to the start time so we can stay on schedule. We need volunteers to assist with the sign-in process. Please send an email to director@develynyouthbasketball.org if you're interested in helping.</p>
+    <h2>2020/21 Team Placement</h2>
+    <p>Team Placement will take place on Tuesday, September 8th and Wednesday September 9th at the Gold Crown Fieldhouse. Please plan to arrive 5 minutes prior to the start time so we can stay on schedule.  Parent meetings will be held outdoors near the building for the first 10 minutes of each session.  Registration is FREE but required to attend.</p>
     <h3><u>Schedule</u></h3>
     <div className="placement-schedule">
-      <div className="first">
+      <div className="middle">
+        {/* <br /> */}
+        <div><u>Grades 2nd-4th</u></div>
+        <div>Date: Wednesday, September 9th</div>
+        <div>Time: 5-7pm</div>
         <br />
-        <div><u>3rd Grade Boys & Girls</u></div>
-        <div>Check-in: 9:15am</div>
-        <div>Start: 9:30am</div>
+        <div><u>Grades 5th-6th</u></div>
+        <div>Date: Wednesday, September 9th</div>
+        <div>Time: 7:30-9:30pm</div>
         <br />
-        <div><u>4th Grade Boys & Girls</u></div>
-        <div>Check-in: 10:15am</div>
-        <div>Start: 10:30am</div>
-        <br />
-        <div><u>5th Grade Boys & Girls</u></div>
-        <div>Check-in: 11:15am</div>
-        <div>Start: 11:30am</div>
-        <br />
-      </div>
-      <div className="second">
-        <br />
-        <div><u>6th Grade Boys & Girls</u></div>
-        <div>Check-in: 12:45pm</div>
-        <div>Start: 1:00pm</div>
-        <br />
-        <div><u>7th Grade Boys & Girls</u></div>
-        <div>Check-in: 1:45pm</div>
-        <div>Start: 2:00pm</div>
-        <br />
-        <div><u>8th Grade Boys & Girls</u></div>
-        <div>Check-in: 2:45pm</div>
-        <div>Start: 3:00pm</div>
+        <div><u>Grades 7th-8th</u></div>
+        <div>Date: Tuesday, September 8th</div>
+        <div>Time: 7:30-9:30pm</div>
       </div>
     </div>
     <br />

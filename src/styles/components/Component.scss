@@ -47,22 +47,15 @@
 	display: grid;
 	width: 85%;
 	margin: 0 auto;
+	padding-top: 5px;
 	grid-template-rows: 1fr;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 2fr 1fr;
 	grid-template-areas:
-		"first second"
+		"left middle right"
 	;
 
-	.first {
-		grid-area: first;
-	}
-
-	.second {
-		grid-area: second;
-	}
-
-	.first, .second {
-		width: 110px;
+	.middle {
+		grid-area: middle;
 		margin: 0 auto;
 		font-size: 18px;
 		white-space: nowrap;

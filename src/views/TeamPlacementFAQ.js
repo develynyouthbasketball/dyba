@@ -13,7 +13,7 @@ const TeamPlacementFAQ = () => (
         </ul>
         <span className="list-header"><u>Where is the Team Placement held?</u></span>
         <ul>
-          <li>Team Placement takes place at the D'Evelyn High School gym. Please use the entrance on the east side of the building.</li>
+          <li>Team Placement takes place at the Gold Crown Fieldhouse.</li>
         </ul>
         <span className="list-header"><u>What should my child wear?</u></span>
         <ul>
@@ -49,7 +49,7 @@ const TeamPlacementFAQ = () => (
         </ul>
         <span className="list-header"><u>What if I have additional questions?</u></span>
         <ul>
-          <li>The DYBA director will be available throughout the day during the tryouts. You may also send an email to director@develynyouthbasketball.org. There will be several volunteers helping out with sign-in for the tryouts. These volunteers are typically experienced basketball parents who can answer most questions. Please be respectful of their time during the busy check-in periods and ask your questions after they've completed check-ins.</li>
+          <li>The DYBA director will be available throughout the day during the tryouts. You may also send an email to director@develynyouthbasketball.org.</li>
         </ul>
       </div>
     </div>
