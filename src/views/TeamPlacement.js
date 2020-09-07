@@ -9,17 +9,29 @@ const TeamPlacement = () => (
     <div className="placement-schedule">
       <div className="middle">
         {/* <br /> */}
-        <div><u>Grades 2nd-4th</u></div>
+        <div><u>Boys Grades 2nd-4th</u></div>
         <div>Date: Wednesday, September 9th</div>
-        <div>Time: 5-7pm</div>
+        <div>Time: 5-6pm</div>
         <br />
-        <div><u>Grades 5th-6th</u></div>
+        <div><u>Girls Grades 2nd-4th</u></div>
         <div>Date: Wednesday, September 9th</div>
-        <div>Time: 7:30-9:30pm</div>
+        <div>Time: 6-7pm</div>
         <br />
-        <div><u>Grades 7th-8th</u></div>
+        <div><u>5th Grade</u></div>
+        <div>Date: Wednesday, September 9th</div>
+        <div>Time: 5-6pm</div>
+        <br />
+        <div><u>6th Grade</u></div>
+        <div>Date: Wednesday, September 9th</div>
+        <div>Time: 6-7pm</div>
+        <br />
+        <div><u>7th Grade</u></div>
         <div>Date: Tuesday, September 8th</div>
-        <div>Time: 7:30-9:30pm</div>
+        <div>Time: 7:30-8:30pm</div>
+        <br />
+        <div><u>8th Grade</u></div>
+        <div>Date: Tuesday, September 8th</div>
+        <div>Time: 8:30-9:30pm</div>
       </div>
     </div>
     <br />
