@@ -4,7 +4,7 @@ import MainContainer from '../common/MainContainer';
 const TeamPlacement = () => (
   <MainContainer title="DYBA INFO">
     <h2>2020/21 Team Placement</h2>
-    <p>Team Placement will take place on Tuesday, September 8th and Wednesday September 9th at the Gold Crown Fieldhouse. Please plan to arrive 5 minutes prior to the start time so we can stay on schedule.  Parent meetings will be held outdoors near the building for the first 10 minutes of each session.  Registration is *FREE* but required to attend.</p>
+    <p>Team Placement will take place on Tuesday, September 8th and Wednesday September 9th at the Gold Crown Fieldhouse. Please plan to arrive 5 minutes prior to the start time so we can stay on schedule.  Parent meetings will be held outdoors near the building for the first 10 minutes of each session.  Registration is FREE but required to attend.</p>
     <h3><u>Schedule</u></h3>
     <div className="placement-schedule">
       <div className="middle">
