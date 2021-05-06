@@ -4,8 +4,10 @@ import brochure from '../images//2019-DYBA-Summer-Camps.png';
 
 const SummerCamp = () => (
   <MainContainer title="PROGRAMS">
-    <h2>Summer Camps</h2>
-    <p>DYBA summer camps were not held in 2020 due to Covid restrictions. We hope to bring them back in 2021.</p>
+    <h2>Summer Camps 2021</h2>
+    <p>Grades 2-5 - Coed - June 1,2,3 from 9-11am
+Grades 6-8 - Boys - June 1,2,3 from 11:30-1:30pm
+Grades 6-8 - Girls - June 7,8,9 from 12-2pm</p>
   </MainContainer>
 );
 
